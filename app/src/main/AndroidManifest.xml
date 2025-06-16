@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32"
+        android:minSdkVersion="28"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CekLadang"
+        tools:targetApi="31">
+        <activity
+            android:name=".ui.history.HistoryDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.detailhistory.DetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.result.ResultActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.analisis.AnalisisActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.viewmodels.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.DaftarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.auth.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ui.splashscreen.SplashActivity"
+            android:exported="true"
+            android:theme="@style/SplashScreenStyle">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">CekLadang</string>
+    <string name="title_home">Home</string>
+    <string name="title_history">History</string>
+    <string name="title_news">News</string>
+
+    <!--    login-->
+    <string name="tvWelcome">Selamat Datang!</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="label_invalid_email">Email tidak valid!</string>
+    <string name="hint_email">Masukkan email anda</string>
+    <string name="hint_name">Masukkan nama anda</string>
+    <string name="hint_password">Masukkan password anda</string>
+    <string name="password_short">Kata sandi minimal harus 8 karakter!</string>
+    <string name="btnlogin">Masuk</string>
+    <string name="btndaftar">Daftar</string>
+    <string name="or">Atau</string>
+    <string name="email_warning">The email format you are using is wrong!</string>
+    <string name="password_warning">Password must be at least 8 characters</string>
+    <string name="login_gagal">Login Failed</string>
+    <string name="login_success">Login Successful</string>
+    <string name="retry">Try Again</string>
+    <string name="web_client_id">1039949777085-54e7tqubakknh23uoc4vgfsoho9j3dto.apps.googleusercontent.com</string>
+
+    <!--    daftar-->
+    <string name="tvRegister">Buat akun anda</string>
+    <string name="name">Name</string>
+
+    <string name="password_empty">Password tidak boleh kosong</string>
+    <string name="email_empty">Email tidak boleh kosong</string>
+    <string name="name_empty">Nama tidak boleh kosong</string>
+
+    <string name="language">Ganti Bahasa</string>
+    <string name="logout">Keluar</string>
+
+
+    <string name="title_choose">Mau analisis tumbuhan apa?</string>
+    <string name="title_tumbuhan">Nama Tumbuhan</string>
+
+
+    <string name="title_analisis">Hasil Analisis</string>
+    <string name="description">Deskripsi</string>
+    <string name="gallery">galeri</string>
+    <string name="analyze">Analisis</string>
+    <string name="camera">kamera</string>
+
+    <string name="btn_save">Simpan</string>
+    <string name="btn_delete">Hapus</string>
+    <string name="timestamp">Tanggal</string>
+    <string name="result_analisis">Result Analisis</string>
+    <string name="result_name">Result Name</string>
+    <string name="Title_analisis">Title Analisis</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="image_classifier_failed">Image classifier failed to initialize. See error logs for details</string>
+    <string name="btn_loginWithGoogle">Masuk Dengan Google</string>
+    <string name="waiting_generate">Tunggu Sebentar, Sedang mengenerate...</string>
+
+</resources>

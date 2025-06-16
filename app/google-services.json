@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1039949777085",
+    "project_id": "cekladang-938ce",
+    "storage_bucket": "cekladang-938ce.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1039949777085:android:a256cfb480abf9611c4fd4",
+        "android_client_info": {
+          "package_name": "com.dicoding.cekladang"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1039949777085-e5ikbs0j03r5vit8uam22lav5oe5deu2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.dicoding.cekladang",
+            "certificate_hash": "1be0f4594838b25850b49c097e2b741620ddc4c6"
+          }
+        },
+        {
+          "client_id": "1039949777085-54e7tqubakknh23uoc4vgfsoho9j3dto.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD-c_B3JYmN0xA6MuzgoS4a-QUhRDBJw70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1039949777085-54e7tqubakknh23uoc4vgfsoho9j3dto.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
